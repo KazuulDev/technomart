@@ -1,3 +1,30 @@
 /* Fonts */
+
 @import url('https://fonts.googleapis.com/css2?family=Cuprum:ital,wght@0,400;0,700;1,400&family=PT+Sans:ital,wght@0,400;0,700;1,400&display=swap');
 
+/* Vars */
+
+:root {
+    --backgrond-color: rgba(255, 255, 255, 1);
+    --nav-color: rgba(41, 52, 73, 1);
+    --header-color: rgba(241, 245, 247, 1);
+}
+
+.page {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    min-width: 960px;
+    background-color: var(--backgrond-color);
+    flex-direction: column;
+}
+
+.nav-wrapper {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--header-color);
+}
+
+.user-nav {
+    background-color: var(--nav-color);
+}
