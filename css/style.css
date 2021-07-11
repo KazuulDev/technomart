@@ -8,6 +8,13 @@
     --backgrond-color: rgba(255, 255, 255, 1);
     --nav-color: rgba(41, 52, 73, 1);
     --header-color: rgba(241, 245, 247, 1);
+    --mustard: rgba(255, 191, 71, 1);
+    --blue: rgba(59, 188, 227, 1);
+    --purple: rgba(220, 145, 216, 1);
+    --green: rgba(142, 215, 143, 1);
+    --red-basic: rgba(238, 54, 67, 1);
+    --header-adress-color: rgba(50, 66, 92, 1);
+    --inactive-price: rgba(169, 169, 169, 1);
 }
 
 .page {
@@ -26,5 +33,136 @@
 }
 
 .user-nav {
+    display: flex;
     background-color: var(--nav-color);
+    font-family: Cuprum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: var(--backgrond-color);
+}
+
+.site-nav {
+    display: flex;
+    background-color: var(--nav-color);
+}
+
+.site-nav li {
+    list-style: none;
+}
+
+.site-nav a {
+    color: var(--backgrond-color);
+    font-family: Cuprum;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    text-decoration: none;
+    list-style: none;
+}
+
+.categories {
+    display: flex;
+    font-family: Cuprum;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.categories a {
+    font-family: Cuprum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    text-decoration: none;
+}
+
+.header-description {
+    font-family: Cuprum;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: var(--red-basic);
+}
+
+.tel-header {
+    font-family: Cuprum;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 30px;
+    color: var(--red-basic);
+    text-decoration: none;
+}
+
+.header-adress {
+    color: var(--header-adress-color);
+    font-family: Cuprum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.login-buttons a {
+    font-family: Cuprum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 21px;
+    text-decoration: none;
+}
+
+.popular-header {
+    font-family: Cuprum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 30px;
+}
+
+.popular-name {
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.regular-price {
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 18px;
+    text-decoration: line-through;
+    color: var(--inactive-price);
+}
+
+.discount-price {
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 18px;
+    color: var(--backgrond-color);
+    background-color: var(--red-basic);
+}
+
+.show-other {
+    font-family: Cuprum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    text-decoration: none;
 }
